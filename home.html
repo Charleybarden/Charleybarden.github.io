@@ -1,3 +1,81 @@
 <!DOCTYPE html>
-    <h1>hello world</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charley Barden's Blog</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light Grey Background */
+        }
+
+        header {
+            background-color: #001f3f; /* Dark Blue Header */
+            color: #d3d3d3; /* Light Grey Text */
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .header-buttons {
+            display: flex;
+        }
+
+        .header-button {
+            margin-left: 10px;
+            padding: 8px 16px;
+            background-color: #d3d3d3; /* Light Grey Button */
+            color: #333; /* Dark Grey Text */
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .header-button:first-child {
+            margin-left: 0;
+        }
+
+        #welcome-section {
+            text-align: center;
+            margin: 20px;
+        }
+
+        #welcome-title {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        #subheading {
+            font-size: 18px;
+            color: #555; /* Dark Grey Subheading Text */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-title">Charley Barden</div>
+        <div class="header-buttons">
+            <a href="#about" class="header-button">About</a>
+            <a href="#python" class="header-button">Python</a>
+            <a href="#sql" class="header-button">SQL</a>
+            <a href="#other" class="header-button">Other</a>
+        </div>
+    </header>
+
+    <div id="welcome-section">
+        <h1 id="welcome-title">Welcome</h1>
+        <p id="subheading">Explore the thoughts, insights, and experiences shared on various topics.</p>
+    </div>
+
+</body>
 </html>
